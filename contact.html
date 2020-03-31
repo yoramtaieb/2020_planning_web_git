@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <!-- exo 08 -->
+        <div class="formulaire">
+            <form action="" method="get">
+                <input name="name" type="text" placeholder="Nom" required /> <br>
+                <input name="name" type="text" placeholder="Prénom" required /> <br>
+                <input name="email" type="email" placeholder="E-mail" required /> <br>
+                <input type="tel" name="phone" placeholder="Téléphone" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required> <br>
+
+                <input type="number" placeholder="Age" name="quantity" min="3" max="99"><br>
+                <label for="homme"><input type="radio" name="femme-homme" value="homme"> Homme</label>
+                <label for="femme"><input type="radio" name="femme-homme" value="femme"> Femme</label><br>
+                <input type="color" id="head" name="head" value="#e66465"> <br>
+                <SELECT name="nom" size="1">
+                    <OPTION>JS
+                    <OPTION>SQL
+                    <OPTION>HTML
+                    <OPTION>CSS
+                    </SELECT> <br>
+                <textarea name="Message" cols="30" rows="10" placeholder="Quel est votre technologie preférée ?" required></textarea> <br>
+                <button name="submit" type="submit" data-submit="...Sending">Envoyer</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
